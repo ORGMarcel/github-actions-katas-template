@@ -12,6 +12,8 @@ jobs:
         with: 
           name: code
           path: .
+  Linting:
+      runs-on: ubuntu-latest
       - name: run linting
         uses: super-linter/super-linter/slim@v5 
         env:
